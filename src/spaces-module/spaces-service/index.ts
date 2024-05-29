@@ -11,8 +11,8 @@ const spacesEndpoint = new AWS.Endpoint('sgp1.digitaloceanspaces.com');
 const S3 = new AWS.S3({
   endpoint: spacesEndpoint.href,
   credentials: new AWS.Credentials({
-    accessKeyId: 'DO00VEU6UGLF9N9DEWMW',
-    secretAccessKey: 'HBgpKmKOZToagrXKauxuItJbmG+X+vlKSSoW7tb/LoQ',
+    accessKeyId: 'DO00YJ8RMRKN83B9J9C9',
+    secretAccessKey: 'Aqyh4YEO98xUt9TUZ4W1IeO9wckDcYSwRlPJXNSRJSs',
   }),
 });
 
